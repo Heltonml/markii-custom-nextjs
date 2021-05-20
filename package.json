@@ -1,0 +1,33 @@
+{
+  "name": "markii-custom-nextjs",
+  "version": "1.0.0",
+  "description": "This project was created to improve learning how to create custom server for next.js app",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "itest": "NODE_ENV=test nodemon src/app",
+    "start": "NODE_ENV=production node src/app.js",
+    "build": "next build",
+    "dev": "NODE_ENV=development nodemon src/app",
+    "debug": "NODE_OPTIONS='--inspect' nodemon src/app"
+  },
+  "keywords": [
+    "node",
+    "nodemon",
+    "express",
+    "nextjs",
+    "react"
+  ],
+  "author": "Helton M Leite",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "next": "^10.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
